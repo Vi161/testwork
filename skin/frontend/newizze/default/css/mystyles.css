@@ -195,4 +195,16 @@
   height: 30px;
   background: url("../img/myarrow.jpg") no-repeat 0 3px; }
 
+.short-description .std {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; }
+
+.short-description__link {
+  position: absolute;
+  top: 42px;
+  left: 114px; }
+
 /*# sourceMappingURL=mystyles.css.map */

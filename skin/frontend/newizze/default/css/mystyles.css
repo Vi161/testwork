@@ -1,0 +1,198 @@
+@font-face {
+  font-family: 'RobotoSlab-Regular';
+  src: url("../fonts/RobotoSlab-Regular.ttf");
+  src: local("?"), url("../fonts/RobotoSlab-Regular.ttf") format("woff"), url("../fonts/RobotoSlab-Regular.ttf") format("truetype"), url("../fonts/RobotoSlab-Regular.ttf#webfontzqb2Knxj") format("svg"); }
+@font-face {
+  font-family: 'RobotoSlab-Bold';
+  src: url("../fonts/RobotoSlab-Bold.ttf");
+  src: local("?"), url("../fonts/RobotoSlab-Bold.ttf") format("woff"), url("../fonts/RobotoSlab-Bold.ttf") format("truetype"), url("../fonts/RobotoSlab-Bold.ttf#webfontzqb2Knxj") format("svg"); }
+@font-face {
+  font-family: 'RobotoSlab-Light';
+  src: url("../fonts/RobotoSlab-Light.ttf");
+  src: local("?"), url("../fonts/RobotoSlab-Light.ttf") format("woff"), url("../fonts/RobotoSlab-Light.ttf") format("truetype"), url("../fonts/RobotoSlab-Light.ttf#webfontzqb2Knxj") format("svg"); }
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/RobotoSlab-Regular.ttf");
+  src: local("?"), url("../fonts/Roboto-Regular.ttf") format("woff"), url("../fonts/Roboto-Regular.ttf") format("truetype"), url("../fonts/Roboto-Regular.ttf#webfontzqb2Knxj") format("svg"); }
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url("../fonts/roboto-bold.ttf");
+  src: local("?"), url("../fonts/roboto-bold.ttf") format("woff"), url("../fonts/roboto-bold.ttf") format("truetype"), url("../fonts/roboto-bold.ttf#webfontzqb2Knxj") format("svg"); }
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url("../fonts/RobotoSlab-Light.ttf");
+  src: local("?"), url("../fonts/roboto-light.ttf") format("woff"), url("../fonts/roboto-light.ttf") format("truetype"), url("../fonts/roboto-light.ttf#webfontzqb2Knxj") format("svg"); }
+@font-face {
+  font-family: 'Caveat-Brush';
+  src: url("../fonts/caveat-brush.ttf");
+  src: local("?"), url("../fonts/caveat-brush.ttf") format("woff"), url("../fonts/caveat-brush.ttf") format("truetype"), url("../fonts/caveat-brush.ttf#webfontzqb2Knxj") format("svg"); }
+.product-img-box__wrap {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 50px;
+  margin-right: 3.8vw; }
+
+.product-image-thumbs {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4.3vw; }
+
+.product-image {
+  border: none; }
+
+.product-img-box .product-image {
+  width: 316px; }
+
+.product-view .product-shop .product-name .h1 {
+  color: black;
+  font-family: 'RobotoSlab-Regular';
+  font-size: 22px;
+  text-transform: none;
+  font-weight: bolder;
+  letter-spacing: 0.5px; }
+
+.product-view .product-shop, .product-view .add-to-cart-wrapper, .additional__wrap {
+  padding-left: 5.5vw; }
+
+.product-name-price-info__wrap {
+  display: flex;
+  flex-direction: column; }
+
+.price-box {
+  text-align: left; }
+
+.product-view .product-shop .price-box .regular-price .price {
+  color: #000000;
+  font-family: 'RobotoSlab-Bold';
+  font-size: 24px; }
+
+.product-view .product-shop .price-info {
+  padding-left: 0; }
+
+.availability .label {
+  display: inline;
+  font-family: 'Roboto-Bold'; }
+
+.availability.in-stock {
+  color: #000000;
+  text-transform: none;
+  font-size: 14px;
+  font-family: 'Roboto-Regular'; }
+
+.product-view .add-to-cart-buttons {
+  width: 380px; }
+
+.add-to-links a, .product-view .add-to-cart-buttons .button {
+  font-size: 16px;
+  font-family: 'Roboto-Light';
+  text-transform: none; }
+
+.product-view .add-to-cart-buttons .button {
+  background-color: #65b697;
+  border-radius: 5px;
+  color: white;
+  height: 51px; }
+
+.fa__button-byu {
+  font-size: 12px;
+  padding-left: 10px; }
+
+.wishlist__button {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 380px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.fa-wishlist {
+  font-size: 12px;
+  margin-right: 10px; }
+
+.add-to-links a {
+  color: #000000; }
+
+.product-view .add-to-cart {
+  border: none; }
+
+.additional__wrap {
+  display: flex;
+  flex-direction: column; }
+
+.additional .label {
+  font-family: 'Roboto-Bold';
+  font-size: 14px; }
+.additional .data {
+  font-family: 'Roboto-Regular';
+  font-size: 14px; }
+
+.view-category-label {
+  font-family: 'Roboto-Bold';
+  font-size: 14px; }
+
+.view-category-name {
+  font-family: 'Roboto-Regular';
+  font-size: 14px; }
+
+.product-view .block-related {
+  width: 100%;
+  float: none;
+  clear: none; }
+
+.mini-products-list {
+  display: flex;
+  justify-content: row; }
+
+.block-related .product {
+  margin-left: 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column; }
+
+.block-related .product-details {
+  margin-left: 0px; }
+
+.block-related .product-details .price-box {
+  display: flex;
+  justify-content: center; }
+
+.block-related .block-title h2 {
+  color: #000000;
+  font-family: 'Caveat-Brush';
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none; }
+
+.block-content {
+  display: flex;
+  justify-content: center;
+  position: relative; }
+
+.block-content:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 0.92) 96%, white 97%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 0.92) 96%, white 97%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 85%, rgba(255, 255, 255, 0.92) 96%, white 97%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
+  /* IE6-9 */
+  height: 100%;
+  z-index: 100;
+  width: 100%;
+  height: 100%; }
+
+.block-related .block-title {
+  display: flex; }
+
+.related-arrow {
+  width: 38px;
+  height: 30px;
+  background: url("../img/myarrow.jpg") no-repeat 0 3px; }
+
+/*# sourceMappingURL=mystyles.css.map */

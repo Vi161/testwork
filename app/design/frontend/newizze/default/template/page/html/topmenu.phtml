@@ -34,8 +34,13 @@
 <?php $_menu = $this->getHtml('level-top') ?>
 
 <?php if($_menu): ?>
+
     <nav id="nav">
-        <ol class="nav-primary">
+        <div class="topmenu__button " tabindex="1">
+            <p class="topmenu__button-text">kies een categorie  <i class="fa fa-chevron-down"></i></p>
+        </div>
+
+        <ol class="nav-primary topmenu__nav">
             <?php echo $_menu ?>
         </ol>
     </nav>

@@ -457,6 +457,118 @@ input[type="search"]::-webkit-input-placeholder{
 #search_mini_form .search-button:before{
   display: none;
 }
+.footer-container {
+  padding-bottom: 0;
+  max-width: 100%;
+  height: 336px;
+  background-color: rgb(241,241,241);
+}
+.footer{
+  max-width: 1260px;
+  margin:0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 0;
+}
+.footer .block-title{
+  border: 0;
+}
+.footer address{
+  border: 0;
+}
+.footer .block-subscribe{
+  display: none;
+}
+.footer-links-block__wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 130px;
+  padding-top: 17px;
+  .footer-links-block{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    .footer-links-block__content{
+      text-align: left;
+      .footer-links-block__h2{
+        font-family: "RobotoSlab-Regular";
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: none;
+      }
+      .footer-links__list{
+        .footer-links__item{
+          padding-bottom: 10px;
+          a{
+            font-family: "Roboto-Light";
+            font-size: 14px;
+            color: #000000;
+            font-weight: bolder;
+          }
+        }
+      }
+    }
+
+    .footer-links-social__list{
+      display: flex;
+      flex-direction: row;
+      .footer-links-social__item{
+        margin: 0 3px;
+      }
+      a{
+        background-image: url("../images/sprite.png");
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
+        display: block;
+      }
+      .footer-links-social__f{
+        background-position: -49px -1px;
+      }
+      .footer-links-social__p{
+        background-position: -93px -1px;
+      }
+      .footer-links-social__i{
+        background-position: -136px -1px;
+      }
+      .footer-links-social__t{
+        background-position: -180px -1px;
+      }
+      .footer-links-social__g{
+        background-position: -223px -1px;
+      }
+    }
+  }
+}
+.footer-links2-block{
+  display: flex;
+  justify-content: center;
+  padding-top: 85px;
+  .footer-links2__list{
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-links2__item{
+    a{
+      font-family: "Roboto-Light";
+      font-size: 14px;
+      color: #000000;
+      font-weight: bolder;
+    }
+  }
+  .footer-links2__pix{
+    margin: 0 15px;
+  }
+}
+.footer address{
+  font-family: "RobotoSlab-Regular";
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  margin-top: 0;
+}
+
 
 
 //----------media--------------

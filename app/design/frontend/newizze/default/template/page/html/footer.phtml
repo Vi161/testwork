@@ -26,7 +26,48 @@
 ?>
 <div class="footer-container">
     <div class="footer">
+        <div class="footer-links-block__wrap">
+            <div class="footer-links-block">
+                <div class="footer-links-block__content">
+                    <h2 class="footer-links-block__h2">MakeOver.nl</h2>
+                    <ul class="footer-links__list">
+                        <li class="footer-links__item"><a href="#">Over ons</a></li>
+                        <li class="footer-links__item"><a href="#">Vacatures</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-links-block">
+                <div class="footer-links-block__content">
+                    <h2 class="footer-links-block__h2">Zakelijk</h2>
+                    <ul class="footer-links__list">
+                        <li class="footer-links__item"><a href="#">Adverteren</a></li>
+                        <li class="footer-links__item"><a href="#">Verkopen via MakeOver</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-links-block">
+                <div class="footer-links-block__content">
+                    <h2 class="footer-links-block__h2">Volg ons</h2>
+                    <ul class="footer-links-social__list">
+                        <li class="footer-links-social__item"><a class="footer-links-social__f" href="#"></a></li>
+                        <li class="footer-links-social__item"><a class="footer-links-social__p" href="#"></a></li>
+                        <li class="footer-links-social__item"><a class="footer-links-social__i" href="#"></a></li>
+                        <li class="footer-links-social__item"><a class="footer-links-social__t" href="#"></a></li>
+                        <li class="footer-links-social__item"><a class="footer-links-social__g" href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-links2-block">
+            <ul class="footer-links2__list">
+                <li class="footer-links2__item"><a href="#">Privacy policy</a></li>
+                <span class="footer-links2__pix">&bull;</span>
+                <li class="footer-links2__item"><a href="#">Gebruikersvoorwaarden</a></li>
+            </ul>
+        </div>
+
         <?php echo $this->getChildHtml() ?>
         <address class="copyright"><?php echo $this->getCopyright() ?></address>
+
     </div>
 </div>
